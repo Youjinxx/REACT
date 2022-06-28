@@ -5,7 +5,7 @@
 from django.shortcuts import render
 # Response 추가
 from rest_framework.response import Response
-# HTTP method를 처리하기 위한 api_view 데코레이터 추가
+# HTTP method를 처리하기 위한 api_view 데코레이터
 from rest_framework.decorators import api_view
 
 from .models import Post
